@@ -1,0 +1,14 @@
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.wrap {
+  min-width: 1280px;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "PT Sans", Arial, sans-serif;
+  color: #000;
+  border-bottom: dotted; }
